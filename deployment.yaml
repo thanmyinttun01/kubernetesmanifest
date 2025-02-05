@@ -15,7 +15,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: 02042025/dockerhub:12
+      - image: 02042025/dockerhub:13
         name: flaskdemo
         ports:
           - containerPort: 5000  # ✅ Added
